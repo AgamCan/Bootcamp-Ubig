@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MagangGoBIGModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NilaiPeserta">
+    <Key>
+      <PropertyRef Name="IdNilaiPeserta" />
+    </Key>
+    <Property Name="IdNilaiPeserta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Disiplin" Type="Int32" Nullable="false" />
+    <Property Name="Kreativitas" Type="Int32" Nullable="false" />
+    <Property Name="Inisiatif" Type="Int32" Nullable="false" />
+    <Property Name="ProblemSolving" Type="Int32" Nullable="false" />
+    <Property Name="TanggungJawab" Type="Int32" Nullable="false" />
+    <Property Name="Komunikasi" Type="Int32" Nullable="false" />
+    <Property Name="IdStatusNilaiPeserta" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="StatusNilaiPeserta" Relationship="Self.FK_NilaiPeserta_Status" FromRole="NilaiPeserta" ToRole="StatusNilaiPeserta" />
+    <NavigationProperty Name="Peserta" Relationship="Self.FK_Peserta_NilaiPeserta" FromRole="NilaiPeserta" ToRole="Peserta" />
+  </EntityType>
+  <EntityType Name="Pengguna">
+    <Key>
+      <PropertyRef Name="PenggunaId" />
+    </Key>
+    <Property Name="PenggunaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Peserta">
+    <Key>
+      <PropertyRef Name="IdPeserta" />
+    </Key>
+    <Property Name="IdPeserta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NamaLengkap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TanggalLahir" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Sekolah" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MasukMagang" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="AkhirMagang" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IdNilaiPeserta" Type="Int32" />
+    <NavigationProperty Name="NilaiPeserta" Relationship="Self.FK_Peserta_NilaiPeserta" FromRole="Peserta" ToRole="NilaiPeserta" />
+  </EntityType>
+  <EntityType Name="StatusNilaiPeserta">
+    <Key>
+      <PropertyRef Name="IdStatusNilaiPeserta" />
+    </Key>
+    <Property Name="IdStatusNilaiPeserta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RangeNilai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="NilaiPeserta" Relationship="Self.FK_NilaiPeserta_Status" FromRole="StatusNilaiPeserta" ToRole="NilaiPeserta" />
+  </EntityType>
+  <Association Name="FK_NilaiPeserta_Status">
+    <End Role="StatusNilaiPeserta" Type="Self.StatusNilaiPeserta" Multiplicity="1" />
+    <End Role="NilaiPeserta" Type="Self.NilaiPeserta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusNilaiPeserta">
+        <PropertyRef Name="IdStatusNilaiPeserta" />
+      </Principal>
+      <Dependent Role="NilaiPeserta">
+        <PropertyRef Name="IdStatusNilaiPeserta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Peserta_NilaiPeserta">
+    <End Role="NilaiPeserta" Type="Self.NilaiPeserta" Multiplicity="0..1" />
+    <End Role="Peserta" Type="Self.Peserta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NilaiPeserta">
+        <PropertyRef Name="IdNilaiPeserta" />
+      </Principal>
+      <Dependent Role="Peserta">
+        <PropertyRef Name="IdNilaiPeserta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MagangGoBIGEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NilaiPeserta" EntityType="Self.NilaiPeserta" />
+    <EntitySet Name="Pengguna" EntityType="Self.Pengguna" />
+    <EntitySet Name="Peserta" EntityType="Self.Peserta" />
+    <EntitySet Name="StatusNilaiPeserta" EntityType="Self.StatusNilaiPeserta" />
+    <AssociationSet Name="FK_NilaiPeserta_Status" Association="Self.FK_NilaiPeserta_Status">
+      <End Role="StatusNilaiPeserta" EntitySet="StatusNilaiPeserta" />
+      <End Role="NilaiPeserta" EntitySet="NilaiPeserta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Peserta_NilaiPeserta" Association="Self.FK_Peserta_NilaiPeserta">
+      <End Role="NilaiPeserta" EntitySet="NilaiPeserta" />
+      <End Role="Peserta" EntitySet="Peserta" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

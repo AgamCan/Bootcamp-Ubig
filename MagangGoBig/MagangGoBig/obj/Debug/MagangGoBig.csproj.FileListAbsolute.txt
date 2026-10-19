@@ -1,0 +1,16 @@
+D:\dev\source\repos\MagangGoBig\MagangGoBig\bin\Debug\MagangGoBig.exe.config
+D:\dev\source\repos\MagangGoBig\MagangGoBig\bin\Debug\MagangGoBig.exe
+D:\dev\source\repos\MagangGoBig\MagangGoBig\bin\Debug\MagangGoBig.pdb
+D:\dev\source\repos\MagangGoBig\MagangGoBig\bin\Debug\EntityFramework.dll
+D:\dev\source\repos\MagangGoBig\MagangGoBig\bin\Debug\EntityFramework.xml
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.csproj.AssemblyReference.cache
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.FormLogin.resources
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.FormMain.resources
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.Properties.Resources.resources
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.csproj.GenerateResource.cache
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.csproj.CoreCompileInputs.cache
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGo.03AFC546.Up2Date
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.exe
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.pdb
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.FormDetail.resources
+D:\dev\source\repos\MagangGoBig\MagangGoBig\obj\Debug\MagangGoBig.FormNilai.resources

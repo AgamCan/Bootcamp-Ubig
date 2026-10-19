@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MagangGoBIGModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NilaiPeserta">
+    <Key>
+      <PropertyRef Name="IdNilaiPeserta" />
+    </Key>
+    <Property Name="IdNilaiPeserta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Disiplin" Type="int" Nullable="false" />
+    <Property Name="Kreativitas" Type="int" Nullable="false" />
+    <Property Name="Inisiatif" Type="int" Nullable="false" />
+    <Property Name="ProblemSolving" Type="int" Nullable="false" />
+    <Property Name="TanggungJawab" Type="int" Nullable="false" />
+    <Property Name="Komunikasi" Type="int" Nullable="false" />
+    <Property Name="IdStatusNilaiPeserta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pengguna">
+    <Key>
+      <PropertyRef Name="PenggunaId" />
+    </Key>
+    <Property Name="PenggunaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Peserta">
+    <Key>
+      <PropertyRef Name="IdPeserta" />
+    </Key>
+    <Property Name="IdPeserta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NamaLengkap" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TanggalLahir" Type="date" Nullable="false" />
+    <Property Name="Sekolah" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MasukMagang" Type="date" Nullable="false" />
+    <Property Name="AkhirMagang" Type="date" Nullable="false" />
+    <Property Name="IdNilaiPeserta" Type="int" />
+  </EntityType>
+  <EntityType Name="StatusNilaiPeserta">
+    <Key>
+      <PropertyRef Name="IdStatusNilaiPeserta" />
+    </Key>
+    <Property Name="IdStatusNilaiPeserta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RangeNilai" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_NilaiPeserta_Status">
+    <End Role="StatusNilaiPeserta" Type="Self.StatusNilaiPeserta" Multiplicity="1" />
+    <End Role="NilaiPeserta" Type="Self.NilaiPeserta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusNilaiPeserta">
+        <PropertyRef Name="IdStatusNilaiPeserta" />
+      </Principal>
+      <Dependent Role="NilaiPeserta">
+        <PropertyRef Name="IdStatusNilaiPeserta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Peserta_NilaiPeserta">
+    <End Role="NilaiPeserta" Type="Self.NilaiPeserta" Multiplicity="0..1" />
+    <End Role="Peserta" Type="Self.Peserta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NilaiPeserta">
+        <PropertyRef Name="IdNilaiPeserta" />
+      </Principal>
+      <Dependent Role="Peserta">
+        <PropertyRef Name="IdNilaiPeserta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MagangGoBIGModelStoreContainer">
+    <EntitySet Name="NilaiPeserta" EntityType="Self.NilaiPeserta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pengguna" EntityType="Self.Pengguna" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Peserta" EntityType="Self.Peserta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusNilaiPeserta" EntityType="Self.StatusNilaiPeserta" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_NilaiPeserta_Status" Association="Self.FK_NilaiPeserta_Status">
+      <End Role="StatusNilaiPeserta" EntitySet="StatusNilaiPeserta" />
+      <End Role="NilaiPeserta" EntitySet="NilaiPeserta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Peserta_NilaiPeserta" Association="Self.FK_Peserta_NilaiPeserta">
+      <End Role="NilaiPeserta" EntitySet="NilaiPeserta" />
+      <End Role="Peserta" EntitySet="Peserta" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,16 @@
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\bin\Debug\MagangGoBI!.exe.config
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\bin\Debug\MagangGoBI!.exe
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\bin\Debug\MagangGoBI!.pdb
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI!.csproj.AssemblyReference.cache
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI_.Form1.resources
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI_.Properties.Resources.resources
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI!.csproj.GenerateResource.cache
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI!.csproj.CoreCompileInputs.cache
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI!.exe
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI!.pdb
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\bin\Debug\EntityFramework.dll
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\bin\Debug\EntityFramework.xml
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGo.9C8D9425.Up2Date
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI_.Form2.resources
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI_.Form3.resources
+D:\dev\source\repos\MagangGoBI!\MagangGoBI!\obj\Debug\MagangGoBI_.Form4.resources

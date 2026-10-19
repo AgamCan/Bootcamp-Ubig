@@ -1,0 +1,11 @@
+D:\dev\source\repos\Bukuku\Bukuku\bin\Debug\Bukuku.exe.config
+D:\dev\source\repos\Bukuku\Bukuku\bin\Debug\Bukuku.exe
+D:\dev\source\repos\Bukuku\Bukuku\bin\Debug\Bukuku.pdb
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.csproj.AssemblyReference.cache
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.Form1.resources
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.Properties.Resources.resources
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.csproj.GenerateResource.cache
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.csproj.CoreCompileInputs.cache
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.exe
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.pdb
+D:\dev\source\repos\Bukuku\Bukuku\obj\Debug\Bukuku.Form2.resources

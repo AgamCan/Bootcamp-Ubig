@@ -1,0 +1,13 @@
+D:\dev\source\repos\myToDoList\myToDoList\bin\Debug\myToDoList.exe.config
+D:\dev\source\repos\myToDoList\myToDoList\bin\Debug\myToDoList.exe
+D:\dev\source\repos\myToDoList\myToDoList\bin\Debug\myToDoList.pdb
+D:\dev\source\repos\myToDoList\myToDoList\bin\Debug\EntityFramework.dll
+D:\dev\source\repos\myToDoList\myToDoList\bin\Debug\EntityFramework.xml
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.csproj.AssemblyReference.cache
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.Form1.resources
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.Properties.Resources.resources
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.csproj.GenerateResource.cache
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.csproj.CoreCompileInputs.cache
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.csproj.Up2Date
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.exe
+D:\dev\source\repos\myToDoList\myToDoList\obj\Debug\myToDoList.pdb

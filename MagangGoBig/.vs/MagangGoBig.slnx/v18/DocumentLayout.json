@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dev\\source\\repos\\MagangGoBig\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|d:\\dev\\source\\repos\\maganggobig\\maganggobig\\formnilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\formnilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|D:\\dev\\source\\repos\\MagangGoBig\\maganggobig\\formnilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\formnilai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|D:\\dev\\source\\repos\\MagangGoBig\\maganggobig\\formdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\formdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|D:\\dev\\source\\repos\\MagangGoBig\\maganggobig\\formdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\formdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|D:\\dev\\source\\repos\\MagangGoBig\\maganggobig\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|D:\\dev\\source\\repos\\MagangGoBig\\maganggobig\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|D:\\dev\\source\\repos\\MagangGoBig\\maganggobig\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|D:\\dev\\source\\repos\\MagangGoBig\\maganggobig\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FA259A7-F6D2-476E-AAEA-50C7B5C8E186}|MagangGoBig\\MagangGoBig.csproj|solutionrelative:maganggobig\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\Form1.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\Form1.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\Form1.cs",
+              "RelativeToolTip": "MagangGoBig\\Form1.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA7wEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T01:45:10.029Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDetail.cs",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormDetail.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\FormDetail.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormDetail.cs",
+              "RelativeToolTip": "MagangGoBig\\FormDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T01:47:45.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormNilai.cs",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormNilai.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\FormNilai.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormNilai.cs",
+              "RelativeToolTip": "MagangGoBig\\FormNilai.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswDwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T01:18:30.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormNilai.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormNilai.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\FormNilai.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormNilai.cs [Design]",
+              "RelativeToolTip": "MagangGoBig\\FormNilai.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T12:20:20.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormDetail.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormDetail.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\FormDetail.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormDetail.cs [Design]",
+              "RelativeToolTip": "MagangGoBig\\FormDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T12:17:25.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormMain.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\FormMain.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormMain.cs",
+              "RelativeToolTip": "MagangGoBig\\FormMain.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T01:58:30.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\Form1.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\Form1.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\Form1.cs [Design]",
+              "RelativeToolTip": "MagangGoBig\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T01:45:22.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormMain.cs",
+              "RelativeDocumentMoniker": "MagangGoBig\\FormMain.cs",
+              "ToolTip": "D:\\dev\\source\\repos\\MagangGoBig\\MagangGoBig\\FormMain.cs [Design]",
+              "RelativeToolTip": "MagangGoBig\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T01:15:50.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

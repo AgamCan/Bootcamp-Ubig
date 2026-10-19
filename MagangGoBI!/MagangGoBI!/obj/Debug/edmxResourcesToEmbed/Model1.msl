@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MagangGoBIGModelStoreContainer" CdmEntityContainer="MagangGoBIGEntities">
+    <EntitySetMapping Name="NilaiPeserta">
+      <EntityTypeMapping TypeName="MagangGoBIGModel.NilaiPeserta">
+        <MappingFragment StoreEntitySet="NilaiPeserta">
+          <ScalarProperty Name="IdNilaiPeserta" ColumnName="IdNilaiPeserta" />
+          <ScalarProperty Name="Disiplin" ColumnName="Disiplin" />
+          <ScalarProperty Name="Kreativitas" ColumnName="Kreativitas" />
+          <ScalarProperty Name="Inisiatif" ColumnName="Inisiatif" />
+          <ScalarProperty Name="ProblemSolving" ColumnName="ProblemSolving" />
+          <ScalarProperty Name="TanggungJawab" ColumnName="TanggungJawab" />
+          <ScalarProperty Name="Komunikasi" ColumnName="Komunikasi" />
+          <ScalarProperty Name="IdStatusNilaiPeserta" ColumnName="IdStatusNilaiPeserta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pengguna">
+      <EntityTypeMapping TypeName="MagangGoBIGModel.Pengguna">
+        <MappingFragment StoreEntitySet="Pengguna">
+          <ScalarProperty Name="PenggunaId" ColumnName="PenggunaId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Peserta">
+      <EntityTypeMapping TypeName="MagangGoBIGModel.Peserta">
+        <MappingFragment StoreEntitySet="Peserta">
+          <ScalarProperty Name="IdPeserta" ColumnName="IdPeserta" />
+          <ScalarProperty Name="NamaLengkap" ColumnName="NamaLengkap" />
+          <ScalarProperty Name="TanggalLahir" ColumnName="TanggalLahir" />
+          <ScalarProperty Name="Sekolah" ColumnName="Sekolah" />
+          <ScalarProperty Name="MasukMagang" ColumnName="MasukMagang" />
+          <ScalarProperty Name="AkhirMagang" ColumnName="AkhirMagang" />
+          <ScalarProperty Name="IdNilaiPeserta" ColumnName="IdNilaiPeserta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusNilaiPeserta">
+      <EntityTypeMapping TypeName="MagangGoBIGModel.StatusNilaiPeserta">
+        <MappingFragment StoreEntitySet="StatusNilaiPeserta">
+          <ScalarProperty Name="IdStatusNilaiPeserta" ColumnName="IdStatusNilaiPeserta" />
+          <ScalarProperty Name="RangeNilai" ColumnName="RangeNilai" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
